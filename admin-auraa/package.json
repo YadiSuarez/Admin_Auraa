@@ -1,0 +1,42 @@
+{
+  "name": "admin_auraa",
+  "version": "1.0.0",
+  "description": "prendas dtf",
+  "keywords": [
+    "camisas",
+    "buzos",
+    "personalizable"
+  ],
+  "homepage": "https://github.com/YadiSuarez/Admin_Auraa#readme",
+  "bugs": {
+    "url": "https://github.com/YadiSuarez/Admin_Auraa/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YadiSuarez/Admin_Auraa.git"
+  },
+  "license": "ISC",
+  "author": "Johan Suarez",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.8.3",
+    "@electron-forge/maker-deb": "^7.8.3",
+    "@electron-forge/maker-rpm": "^7.8.3",
+    "@electron-forge/maker-squirrel": "^7.8.3",
+    "@electron-forge/maker-zip": "^7.8.3",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.8.3",
+    "@electron-forge/plugin-fuses": "^7.8.3",
+    "@electron/fuses": "^1.8.0",
+    "electron": "^38.0.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
+  }
+}
