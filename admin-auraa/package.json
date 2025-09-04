@@ -16,7 +16,7 @@
     "url": "git+https://github.com/YadiSuarez/Admin_Auraa.git"
   },
   "license": "ISC",
-  "author": "Johan Suarez",
+  "author": "Melissa Suarez",
   "type": "commonjs",
   "main": "main.js",
   "scripts": {
